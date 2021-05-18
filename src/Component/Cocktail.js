@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const Cocktail = ({id,image,info, name,glass}) =>{
+    console.log("hallo from remote")
     return (
        <section className="cocktail">
            <img src={image} alt={name}></img>
