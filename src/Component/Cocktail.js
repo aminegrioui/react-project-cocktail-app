@@ -2,6 +2,9 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const Cocktail = ({id,image,info, name,glass}) =>{
+    calcul() {
+        console("hallo");
+    }
     return (
        <section className="cocktail">
            <img src={image} alt={name}></img>
