@@ -2,9 +2,6 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const Cocktail = ({id,image,info, name,glass}) =>{
-    hello(){
-        console.log("Hi"); // changed by person1 A1
-    }
     return (
        <section className="cocktail">
            <img src={image} alt={name}></img>
@@ -21,4 +18,3 @@ const Cocktail = ({id,image,info, name,glass}) =>{
     )
 }
 export default Cocktail
-<!-- add comment in last line Cocktail  -->
